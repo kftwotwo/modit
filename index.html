@@ -7,16 +7,32 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <body>
 <!-- Navbar -->
-    <nav class="navbar-fixed-top">
-     <ul class="navbar blue left-align">
-      <li class="right"><a class="padding-large"><i class="fa fa-bars"></i></a></li>
-      <li><a href="#" class="padding-large theme-d4"><i class="fa fa-home"></i>Modit</a></li>
-      <li><a href="#" class="padding-large"><i class="fa fa-user"></i></a></li>
-      <li><a href="#" class="padding-large"><i class="fa fa-envelope"></i></a></li>
-      <li><a href="#" class="padding-large"><i class="fa fa-bell"></i><span class="badge right">3</span></a></li>
-      <li class="right"><a href="#" class="padding-large"><img src="/images/" style="height:25px;width:25px" alt="Avatar"></a></li>
-     </ul>
-   </nav><br>
+    <nav class="navbar black navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <ul class="navbar blue left-align">
+             <li><a href="#" class="padding-large"><i class="fa fa-user"></i></a></li>
+             <li><a href="#" class="padding-large"><i class="fa fa-envelope"></i></a></li>
+             <li><a href="#" class="padding-large"><i class="fa fa-bell"></i><span class="badge right">3</span></a></li>
+            </ul>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn">Enter</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="right"><a class="padding-large"><i class="fa fa-bars"></i></a></li>
+            <li class="right"><a href="#" class="padding-large"><img src="images/1.png" style="height:25px;width:25px" alt="Avatar"></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
   <!-- profile info -->
     <div class="container" style="max-width:1400px;margin-top:80px">
@@ -45,8 +61,8 @@
           <div class="row-padding">
             <div class="card">
               <div class="custom-container padding">
-                <h6>What would you like to post</h6>
-                <p class="padding"></p>
+                <h5>What would you like to post</h5>
+                <input type="text" class="padding form-control" name="" value=""><br>
                 <button type="button" class="btn"><i class="fa fa-pencil"></i>Post</button>
               </div>
             </div>
