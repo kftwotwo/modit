@@ -73,3 +73,6 @@ img{margin-bottom:-5px}a{color:inherit}
 	.footer-distributed .footer-left,.footer-distributed .footer-center,.footer-distributed .footer-right{display: block;width: 100%;margin-bottom: 40px;text-align: center;}
 	.footer-distributed .footer-center i{margin-left: 0;}
 }
+
+.centered-form{margin-top: 20%;}
+.centered-form .panel{background: rgba(255, 255, 255, 0.8);box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;}
