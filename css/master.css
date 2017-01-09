@@ -1,6 +1,6 @@
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;overflow-x:hidden}
 body{margin:0}
-nav{background-color: rgba(33, 33, 33, 0.91);}
+nav{background-color: rgb(37, 38, 34);}
 html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}
 h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
@@ -23,6 +23,7 @@ img{margin-bottom:-5px}a{color:inherit}
 .right{float:right!important}
 .left-align{text-align:left!important}
 .center{text-align:center!important}
+.center-pic{display: block;margin: 0 auto;}
 .margin{margin:16px!important}
 .btn-margin-bottom{margin-bottom:16px!important}
 .padding{padding:8px 16px!important}
